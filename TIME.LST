@@ -1,0 +1,19 @@
+' ***
+' * TIME.GFA
+' * Small utility for seting system clock
+' * Put in AUTO folder
+' * Written by: Johan Tibbelin (sjfroos)
+' * First version: 1991?
+' * Last changed: 2002-07-23
+' *-----------------------------------------
+'
+PRINT "Enter Date & Time"
+PRINT " "
+d$=DATE$
+PRINT "Datum:"
+FORM INPUT 10 AS d$
+t$=TIME$
+PRINT "Tid:"
+FORM INPUT 10 AS t$
+DATE$=d$
+TIME$=t$
